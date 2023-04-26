@@ -18,12 +18,13 @@ const BeğenBölümü = props => {
       >
         <div className='like-section-wrapper'>
           <FontAwesomeIcon icon={faHeart} />
+          
         </div>
         <div className='like-section-wrapper'>
           <FontAwesomeIcon icon={faComment} />
         </div>
       </div>
-      <p className='like-number'>100 likes</p>
+      <p className='like-number'>{begeniSayisi}</p>
     </div>
   );
 };
